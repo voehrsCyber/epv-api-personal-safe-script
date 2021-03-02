@@ -12,5 +12,5 @@
 
 $SAFENAME = "personal_" + $username
 
-.\createSafe.ps1 -PVWAURL $PVWAURL -APIUSER $APIUSER -APIPASSWORD $APIPASSWORD -Add -SafeName $SAFENAME
-.\createSafe.ps1 -PVWAURL $PVWAURL -APIUSER $APIUSER -APIPASSWORD $APIPASSWORD -Members -SafeName $SAFENAME -UserName $username -MemberRole "Owner"
+.\SafeManagement.ps1 -PVWAURL $PVWAURL -APIUSER $APIUSER -APIPASSWORD $APIPASSWORD -Add -SafeName $SAFENAME
+.\SafeManagement.ps1 -PVWAURL $PVWAURL -APIUSER $APIUSER -APIPASSWORD $APIPASSWORD -Members -SafeName $SAFENAME -UserName $username -MemberRole "Owner"
