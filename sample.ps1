@@ -1,0 +1,1 @@
+.\PersonalAccountCreation.ps1 -PVWAURL "https://comp01.cybr.com/PasswordVault/" -APIUSER "Administrator" -APIPASSWORD "PASSWORD" -CyberarkUser "mike" -TargetAddress "domain.org" -TargetUserName "mikeAdm"
